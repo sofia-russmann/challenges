@@ -1,0 +1,33 @@
+A resolver...
+
+1. Cantidad de usuarios donde su apellido comience con la letra ‘M’.
+
+
+2. Listado de los usuarios que cumplan años en el día de la fecha (hoy).
+
+
+3. Por día se necesita, cantidad de ventas realizadas, cantidad de productos vendidos
+y monto total transaccionado para el mes de Enero del 2020.
+
+
+4. Por cada mes del 2019, se solicita el top 5 de usuarios que más vendieron ($) en la
+categoría Celulares. Se requiere el mes y año de análisis, nombre y apellido del
+vendedor, la cantidad vendida y el monto total transaccionado.
+
+
+5. Se solicita poblar una tabla con el precio y estado de los Items a fin del día 
+
+a. Vale resaltar que en la tabla Item, vamos a tener únicamente el último estado
+informado por la PK definida.
+
+b. Esta información nos va a permitir realizar análisis para entender el
+comportamiento de los diferentes Items (por ejemplo evolución de Precios,
+cantidad de Items activos).
+
+6. Desde IT nos comentan que la tabla de Categorías tiene un issue ya que cuando
+generan modificaciones de una categoría se genera un nuevo registro con la misma
+PK en vez de actualizar el ya existente. Teniendo en cuenta que tenemos una
+columna de Fecha de LastUpdated, se solicita crear una nueva tabla y poblar la
+misma sin ningún tipo de duplicados garantizando la calidad y consistencia de los
+datos.
+
